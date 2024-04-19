@@ -34,18 +34,6 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@edge-runtime/primitives@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@edge-runtime/primitives/-/primitives-4.1.0.tgz#43c6e793362f3333acf0955a75b5735b34035494"
-  integrity sha512-Vw0lbJ2lvRUqc7/soqygUX216Xb8T3WBZ987oywz6aJqRxcwSVWwr9e+Nqo2m9bxobA9mdbWNNoRY6S9eko1EQ==
-
-"@edge-runtime/types@^2.2.3":
-  version "2.2.9"
-  resolved "https://registry.yarnpkg.com/@edge-runtime/types/-/types-2.2.9.tgz#9221f6471d8cb148acbb11ea85c28588915cb3c9"
-  integrity sha512-xhPxUwqnaro7YiHMu9ScI0GqSjEGY1tkAaP2nC+CsdKY+V9VsoaInSqOyz6kcnabNkR601/+SIwjKqG5r0RbJg==
-  dependencies:
-    "@edge-runtime/primitives" "4.1.0"
-
 "@esbuild/android-arm64@0.18.20":
   version "0.18.20"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.18.20.tgz#984b4f9c8d0377443cc2dfcef266d02244593622"
@@ -342,18 +330,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pinecone-database/pinecone@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@pinecone-database/pinecone/-/pinecone-1.1.0.tgz#73666c4c6796262e98bec0e82e29f1effd8395a1"
-  integrity sha512-THg+D3cSYVCMmphroOEBQOU9UsOhABYcrExZyurcz8cZ3znipDyJuiX9F3CavysnQa5DTzQEZxcH1YmEMGW8mg==
+"@pinecone-database/pinecone@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@pinecone-database/pinecone/-/pinecone-2.2.0.tgz#f895741756fc66c8b4e0c46eccbd806614879766"
+  integrity sha512-qfVs9n5YyTmerIV1GE1u89xF1W3oFSF53STW68Oqyxey0dGq4775cCw8G5pnwoy872uqfh+tMRDME9bcWfinUw==
   dependencies:
-    "@edge-runtime/types" "^2.2.3"
     "@sinclair/typebox" "^0.29.0"
-    "@types/node" "^18.11.17"
     ajv "^8.12.0"
     cross-fetch "^3.1.5"
     encoding "^0.1.13"
-    typescript "^4.9.4"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -548,7 +533,7 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/node@^18.11.17", "@types/node@^18.11.18", "@types/node@^18.14.6":
+"@types/node@^18.11.18", "@types/node@^18.14.6":
   version "18.19.31"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.31.tgz#b7d4a00f7cb826b60a543cebdbda5d189aaecdcd"
   integrity sha512-ArgCD39YpyyrtFKIqMDvjz79jto5fcI/SVUs2HwB+f0dAzq68yqOdyaSivLiLugSziTpNXLQrVb7RZFmdZzbhA==
@@ -3515,6 +3500,7 @@ space-separated-tokens@^2.0.0:
   integrity sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -3819,7 +3805,7 @@ typed-array-length@^1.0.6:
     is-typed-array "^1.1.13"
     possible-typed-array-names "^1.0.0"
 
-typescript@^4.9.4, typescript@^4.9.5:
+typescript@^4.9.5:
   version "4.9.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
